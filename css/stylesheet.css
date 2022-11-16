@@ -1,0 +1,48 @@
+/* Mobile anything smaller than 600px*/
+body{
+    background-color:  #f7ead6;
+    display:grid;
+    grid-template-columns:0.5fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.head
+{   text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 90px;
+}
+a{
+    text-decoration: none;
+}
+.About
+        {
+            
+            display: flex;
+            list-style: none;
+            font-size: 16px;
+            padding-top: 200px;
+        }
+.Notes
+        {
+           
+            display: flex;
+            list-style: square;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 16px;
+            padding: 10px;
+        }
+li{
+margin: 9px;
+}
+.sidebar{
+    background-color: #b6f6d9;
+    border-radius: 5px;
+    grid-row: 1/5;
+    grid-column: 1/2;
+    }
+#textbox{
+display: grid;
+margin: 20px;
+grid-column: 1/4;
+}
